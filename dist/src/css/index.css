@@ -1,0 +1,102 @@
+body{
+    background-color:#acacac;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.btHeader{
+    display: flex;
+    justify-content: start;
+}
+
+.btFooter{
+    display: flex;
+    justify-content: end;
+}
+
+.content{
+    display: flex;
+    height: 88vh;
+}
+
+.btFunctions{
+    background-image: url(/dist/src/img/add.png);
+    background-size: 4.4vh 4.4vh;
+    width: 5vh;
+    height: 5vh;
+    margin-right: 1vh;
+    background-color: #91A3BF;
+    border: 3px solid #B9CFF3;
+    border-radius:0.5vh;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.btFunctions:hover{
+    background-color: #70A3F4;
+}
+
+.btExit{
+    background-image: url(/dist/src/img/log-out.png);
+    background-size: 4.4vh 4.4vh;
+    width: 5vh;
+    height: 5vh;
+    margin-right: 1vh;
+    background-color: #91A3BF;
+    border: 3px solid #B9CFF3;
+    border-radius:0.5vh;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.btExit:hover{
+    background-color: #70A3F4;
+}
+
+.contentItem{
+    width:10%;
+    height: 100%;
+    text-align: center;
+}
+
+p{
+    color: #43474e;
+}
+
+.btDel{
+    margin-top: 4%;
+    margin-bottom: 0%;
+    margin-left:40%;
+    background-image:url(/dist/src/img/premium-icon-recycle-bin-3156999.png);
+    background-size: 3vh 3vh;
+    width: 3vh;
+    height: 3vh;
+    background-color: #91A3BF;
+    border: 3px solid #B9CFF3;
+    border-radius:0.5vh;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.btDel:hover{
+    background-color: #b8766a;
+}
+
+.btChenge{
+    margin-top: 4%;
+    margin-bottom: 0%;
+    margin-left:40%;
+    background-image:url(/dist/src/img/free-icon-edit-file-1647897.png);
+    background-size: 3vh 3vh;
+    width: 3vh;
+    height: 3vh;
+    background-color: #91A3BF;
+    border: 3px solid #B9CFF3;
+    border-radius:0.5vh;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.btChenge:hover{
+    background-color: #70A3F4;
+}
+
+
+
